@@ -6,7 +6,7 @@
 }
 
 .nameAndLinksContainer {
-    width: 850px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,13 +40,13 @@
 
 .bodyContainer {
     clear: both;
-    height: 500px;
+    height: 550px;
     background-image: url("../images/concrete_seamless.png");
     overflow: auto;
 }
 
 .innerContainer {
-    width: 850px;
+    width: 550px;
     margin-right: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -108,9 +108,31 @@
 }
 
 .pic {
-    width: 200px;
+    width: 160px;
     /* height: 200px; */
     margin-left: 40px;
     margin-top: 20px;
     float: left;
+    position: relative;
+    /* padding: 0px; */
+    /* overflow: auto; */
+}
+
+.pic img {
+    width: 160px;
+    padding: 0px;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+
+.pic p {
+    position: absolute;
+    bottom: 0px;
+    width: 160px;
+    padding: 0px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #4aaaa5;
+    color: white;
 }
