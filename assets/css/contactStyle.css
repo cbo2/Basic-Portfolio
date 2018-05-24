@@ -6,7 +6,7 @@
 }
 
 .nameAndLinksContainer {
-    width: 850px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,22 +40,19 @@
 
 .bodyContainer {
     clear: both;
-    height: 500px;
+    height: 550px;
     background-image: url("../images/concrete_seamless.png");
     overflow: auto;
 }
 
 .innerContainer {
-    width: 850px;
-    margin-right: 150px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
-    /* this one is a different way to do it --> margin: 0px auto 0px; */
     top: 20px;
     position: relative;
     padding-top: 10px;
     border: 2px solid #dddddd;
-    /* overflow: auto; */
 }
 
 .innerContainer:after {
@@ -82,19 +79,9 @@
     margin-left: 10px;
     color: #4aaaa5;
 }
-.innerContainer img {
-    position: relative;
-    width: 150px;
-    border-radius: 5%;
-    float: left;
-    margin-left: 10px;
-    margin-right: 20px;
-}
 
-.innerContainer p {
-    padding-left: 20px;
-    /* overflow: auto; */
-    /* float: right; */
+.innerContainer form {
+    padding: 10px;
 }
 
 .footer {
@@ -107,10 +94,40 @@
     color: white;
 }
 
-.pic {
-    width: 200px;
-    /* height: 200px; */
-    margin-left: 40px;
-    margin-top: 20px;
-    float: left;
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type=textarea] {
+    width: 100%;
+    height: 130px;
+    padding: 0px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }

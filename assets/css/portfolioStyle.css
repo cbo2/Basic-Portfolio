@@ -13,10 +13,8 @@
 
 .myName {
     width: 200px;
-    height: 40px;
+    height: 30px;
     float: left;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-    /* font-family: sans-serif; */
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
     font-size: 25px;
@@ -32,7 +30,7 @@
     text-align: right;
     margin-right: auto;
     width: 200px;
-    height: 40px;
+    height: 30px;
     float: right;
     padding-top: 30px;
     position: relative;
@@ -93,8 +91,6 @@
 
 .innerContainer p {
     padding-left: 20px;
-    /* overflow: auto; */
-    /* float: right; */
 }
 
 .footer {
@@ -114,8 +110,6 @@
     margin-top: 20px;
     float: left;
     position: relative;
-    /* padding: 0px; */
-    /* overflow: auto; */
 }
 
 .pic img {
